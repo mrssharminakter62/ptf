@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="user">
+            <img src="images/mim.jpg" alt="">
+            <h3 class="name">Mrs Sharmin Akter</h3>
+            <p class="post">Frontend developer</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header section end -->
+    <div id="menu" class="fas fa-bars"><i class="fas fa-bars"></i></div>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <h3>Hello !</h3>
+        <h1>I'M <span>Mrs Sharmin Akter</span></h1>
+        <p>I am a passionate web developer with one year experience.I have huse experience in web site building and customization. For every single project that I have done my focus has been on creating the best user experince possible.</p>
+        <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
+    </section>
+ <!-- home section end -->
+
+ <section class="about" id="about">
+     <h1 class="heading"><span>About</span> Me</h1>
+     <div class="row">
+         <div class="info">
+             <h3><span>Name:</span>Mrs Sharmin Akter</h3>
+             <h3><span>Age:</span>28</h3>
+             <h3><span>Post:</span> Developer</h3>
+             <h3><span>Language:</span>English</h3>
+            <a href="https://drive.google.com/uc?export=downloads&id=1E779251z_rCICPYI84Vj-RVtf-i04Hyn"><button class="btn">Download CV <i class="fas fa-download"></i></button></a>
+         </div>
+         <div class="counter">
+            <div class="box">
+                <span>1+</span>
+                <h3>year of experience</h3>
+            </div>
+            <div class="box">
+                <span>20+</span>
+                <h3>project completed</h3>
+            </div>
+            <div class="box">
+                <span>50+</span>
+                <h3>Happy clients</h3>
+            </div>  
+            <div class="box">
+                <span>5+</span>
+                <h3>Award won</h3>
+            </div>    
+         </div>
+     </div>
+ </section>
+ <!-- portfolio section -->
+
+ <section class="portfolio" id="portfolio">
+ <h1 class="heading">My <span>portfolio</span></h1>
+ <div class="box-container">
+     <div class="box">
+         <img src="images/portfoli1.png" alt="">
+     </div>
+     <div class="box">
+        <img src="images/portfoli2.png" alt="">
+    </div>
+    <div class="box">
+        <img src="images/portfoli3.png" alt="">
+    </div>
+    <div class="box">
+        <img src="images/portfoli4.png" alt="">
+    </div>
+    <div class="box">
+        <img src="images/portfoli5.png" alt="">
+    </div>
+ </div>
+</section>
+
+<!-- contact section -->
+
+<section class="contact" id="contact"> 
+    <h1 class="heading"><span>Contact</span> Me</h1>
+    <div class="row">
+        <div class="content">
+            <h3 class='title'>Contact info</h3>
+            <div class="info">
+                <h3><i class="fas fa-envelope"></i> mrssharmina92@gmail.com</h3>
+                <h3><i class="fas fa-phone"></i>  +3922324545</h3>
+                <h3><i class="fas fa-tty"></i> (4534)-542456</h3>
+                <h3><i class="fas fa-map-marker-alt"></i>  Naples, Italy-5453</h3>
+            </div>
+        </div>
+        <form action="">
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <textarea name="" id="" cols="30" rows="10" class="box box-message" placeholder="message"></textarea>
+            <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+</section>
+<!-- top button -->
+
+<a href="#home" class="top">
+    <img src="images/arrow.png" alt="">
+</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
